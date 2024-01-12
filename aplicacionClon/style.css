@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.ventana {
+  width: 25%;
+  max-width: 400px;
+  height: 550px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+.cerrar {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.ventana .encabezado .a {
+  width: 230px;
+  height: 70px;
+  margin: 20px 0 20px 50px;
+}
+
+.ventana .encabezado .b {
+  width: 250px;
+  height: 70px;
+  margin: -20px 0 20px 38px;
+}
+
+.ventana .bot {
+  background-color: #FF8C00;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0 0 22px;
+  height: 30px;
+  text-align: center;
+  line-height: 2px;
+  width: 280px;
+}
+
+.ventana .bot:hover {
+  background-color: #FFA500;
+}
+
+.ventana .encabezado .e {
+  width: 250px;
+  height: 70px;
+  height: 28px;
+  width: 280px;
+  margin: 0 0 20px 17px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+  color: gray;
+}
+
+.ventana .encabezado .m2 {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.ventana .g {
+  background-color: white;
+  color: black;
+  border: 1px solid #333;
+  border-radius: 15px;
+  padding: 15px 30px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 0 10px 22px;
+  height: 30px;
+  text-align: justify;
+  line-height: 1px;
+  width: 280px;
+  text-indent: 55px;
+  border: 1px solid #ccc;
+}
+
+.ventana .i {
+  width: 20%;
+  height: auto;
+  max-width: 20px;
+  position: relative;
+  top: -118px;
+  margin: 0 0 0 78px;
+}
+
+.ventana .f {
+  width: 20%;
+  height: auto;
+  max-width: 20px;
+  position: relative;
+  top: -78px;
+  margin: 0 0 0 -25px;
+}
+
+.ventana .x {
+  width: 20%;
+  height: auto;
+  max-width: 20px;
+  position: relative;
+  top: -36px;
+  margin: 0 0 0 -25px;
+}
+
+.ventana .g:hover {
+  background-color: rgb(231, 226, 226);
+}
+
+.ventana .fm {
+  font-size: 10px;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: -35px;
+  margin: 0 0 0 10px;
+}
